@@ -31,18 +31,6 @@ with datasets and applying analytical techniques to extract insights.
 
 ------------------------------------------------------------------------
 
-# 📁 Repository Structure
-
-    data-analysis-portfolio
-    │
-    ├── real-estate-analysis.ipynb
-    ├── government-indicators-analysis.ipynb
-    ├── data-parsing-and-analysis.ipynb
-    │
-    └── README.md
-
-------------------------------------------------------------------------
-
 # 🚀 Projects
 
 ## 🏠 Real Estate Market Analysis
