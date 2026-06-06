@@ -1,4 +1,4 @@
-# 📊 Data Analyst Portfolio
+# Проекты по анализу данных
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas)
@@ -6,129 +6,128 @@
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-orange)
 ![Seaborn](https://img.shields.io/badge/Seaborn-Statistical%20Visualization-4c72b0)
 ![Status](https://img.shields.io/badge/Status-Portfolio%20Project-success)
+ 
+В данном репозитории представлены несколько проектов, демонстрирующих мои навыки в области **анализа данных, очистки данных, визуализации и обработки данных с использованием Python**.
 
-Welcome to my **Data Analysis Portfolio Repository**.\
-This repository contains several projects demonstrating my skills in
-**data analysis, data cleaning, visualization, and data processing using
-Python**.
-
-The goal of this portfolio is to showcase practical experience working
-with datasets and applying analytical techniques to extract insights.
+Цель портфолио — показать практический опыт работы с реальными наборами данных и применения аналитических методов.
 
 ------------------------------------------------------------------------
 
-# 🧰 Tools & Technologies
+# 🧰 Инструменты и технологии
 
--   **Python**
--   **Pandas**
--   **NumPy**
--   **Matplotlib**
--   **Seaborn**
--   **Plotly**
--   **Regular Expressions**
--   **Object-Oriented Programming**
--   **Jupyter Notebook**
+- **Python**
+- **Pandas**
+- **NumPy**
+- **Matplotlib**
+- **Seaborn**
+- **Plotly**
+- **Регулярные выражения**
+- **Объектно-ориентированное программирование**
+- **Jupyter Notebook**
 
 ------------------------------------------------------------------------
 
-# 📁 Repository Structure
+# 📁 Структура репозитория
 
-    data-analysis-portfolio
-    │
+ds-projects/
+├── README.md
+│
+├── data-parsing-and-analysis/
+│   ├── data-parsing-and-analysis.ipynb
+│   └── data/
+│       └── posts.txt
+│
+├── government-indicators-analysis/
+│   ├── government-indicators-analysis.ipynb
+│   └── data/
+│       ├── regions.xlsx
+│       └── wgidataset.xlsx
+│
+└── real-estate-analysis/
     ├── real-estate-analysis.ipynb
-    ├── government-indicators-analysis.ipynb
-    ├── data-parsing-and-analysis.ipynb
-    │
-    └── README.md
+    └── real_estate_data.csv
 
 ------------------------------------------------------------------------
 
-# 🚀 Projects
+# 🚀 Проекты
 
-## 🏠 Real Estate Market Analysis
+## 🏠 Анализ рынка недвижимости
 
-**Description**\
-This project analyzes apartment listings to identify factors affecting
-real estate prices.
+**Описание**  
+Проект анализирует объявления о продаже квартир для выявления факторов, влияющих на цены на рынке недвижимости.
 
-**Key tasks performed** - Data cleaning and preprocessing - Handling
-missing values - Exploratory Data Analysis (EDA) - Identifying price
-distribution patterns - Visualization of key real estate metrics
+**Основные задачи**  
+- Очистка и предобработка данных  
+- Обработка пропущенных значений  
+- Исследовательский анализ данных (EDA)  
+- Выявление закономерностей распределения цен  
+- Визуализация ключевых метрик рынка недвижимости  
 
-**Skills demonstrated** - Data cleaning - Feature exploration -
-Statistical analysis - Data visualization
+**Продемонстрированные навыки**  
+- Очистка данных  
+- Исследование признаков  
+- Статистический анализ  
+- Визуализация данных  
 
-**Tools used** `Pandas` `NumPy` `Matplotlib` `Seaborn` `Plotly`
-
-------------------------------------------------------------------------
-
-## 🌍 Government Indicators Analysis
-
-**Description**\
-Analysis of the **Worldwide Governance Indicators dataset**, focusing on
-the **Control of Corruption** indicator.
-
-**Key tasks performed** - Data filtering and transformation - Regional
-analysis (Americas) - Time series analysis (1996--2022) - Identifying
-countries with highest and lowest governance scores
-
-**Skills demonstrated** - Time series analysis - Data filtering and
-aggregation - Comparative country analysis - Analytical storytelling
-
-**Tools used** `Pandas` `NumPy` `Matplotlib` `Seaborn`
+**Используемые инструменты**  
+`Pandas` `NumPy` `Matplotlib` `Seaborn` `Plotly`
 
 ------------------------------------------------------------------------
 
-## 📄 Data Parsing & Post Analysis
+## 🌍 Анализ правительственных индикаторов
 
-**Description**\
-A project focused on parsing and analyzing structured text data (social
-media posts).
+**Описание**  
+Анализ набора данных **Worldwide Governance Indicators** с фокусом на индикатор **Контроль коррупции**.
 
-**Key tasks performed** - Parsing text data with **Regular
-Expressions** - Implementing **Object-Oriented data structures** -
-Processing data with **generators** - Creating **decorators for caching
-results** - Building reusable analysis utilities
+**Основные задачи**  
+- Фильтрация и трансформация данных  
+- Региональный анализ (Америка)  
+- Анализ временных рядов (1996–2022)  
+- Определение стран с наивысшими и наименьшими показателями качества управления  
 
-**Skills demonstrated** - Regex text parsing - Python OOP design -
-Functional programming concepts - Performance optimization techniques
+**Продемонстрированные навыки**  
+- Анализ временных рядов  
+- Фильтрация и агрегация данных  
+- Сравнительный анализ стран  
+- Повествовательный анализ (storytelling)  
 
-**Tools used** `Python` `Regex` `Generators` `Decorators`
-
-------------------------------------------------------------------------
-
-# 📈 Skills Demonstrated
-
-This repository demonstrates experience with:
-
--   Data Cleaning
--   Exploratory Data Analysis (EDA)
--   Data Visualization
--   Working with real-world datasets
--   Text parsing and processing
--   Python programming for data analysis
--   Object-Oriented Programming in analytical workflows
+**Используемые инструменты**  
+`Pandas` `NumPy` `Matplotlib` `Seaborn`
 
 ------------------------------------------------------------------------
 
-# 🎯 Purpose of This Repository
+## 📄 Парсинг данных и последующий анализ
 
-These projects were created to practice and demonstrate **core data
-analyst skills**, including:
+**Описание**  
+Проект, посвящённый парсингу и анализу структурированных текстовых данных (посты в социальных сетях).
 
--   transforming raw data into structured datasets
--   analyzing patterns and trends
--   communicating insights through analysis and visualization
+**Основные задачи**  
+- Парсинг текстовых данных с помощью **регулярных выражений**  
+- Реализация **объектно-ориентированных структур данных**  
+- Обработка данных с помощью **генераторов**  
+- Создание **декораторов для кэширования результатов**  
+- Построение переиспользуемых аналитических утилит  
 
-This repository serves as a **portfolio of analytical work using
-Python**.
+**Продемонстрированные навыки**  
+- Парсинг текста с помощью Regex  
+- Объектно-ориентированный дизайн на Python  
+- Функциональное программирование  
+- Оптимизация производительности  
+
+**Используемые инструменты**  
+`Python` `Regex` `Генераторы` `Декораторы`
 
 ------------------------------------------------------------------------
 
-# 📬 Contact
+# 📈 Продемонстрированные навыки
 
-If you are interested in collaboration or discussing data analysis
-opportunities, feel free to connect.
+Этот репозиторий демонстрирует опыт работы с:
 
--   GitHub: https://github.com/
--   LinkedIn: https://linkedin.com/
+- Очисткой данных
+- Исследовательским анализом данных (EDA)
+- Визуализацией данных
+- Работой с реальными наборами данных
+- Парсингом и обработкой текста
+- Программированием на Python для анализа данных
+- Объектно-ориентированным программированием в аналитических рабочих процессах
+
