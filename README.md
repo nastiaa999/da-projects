@@ -45,7 +45,7 @@ ds-projects/
 └── real-estate-analysis/
     ├── real-estate-analysis.ipynb
     └── real_estate_data.csv
-'''
+```
 ------------------------------------------------------------------------
 
 # 🚀 Проекты
